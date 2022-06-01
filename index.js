@@ -29,15 +29,15 @@ class ClearingCompany extends CreditCard {
     }
 }
 
-function deal(e) {
-    // e.preventDefulte();F
+function deal() {
+
     let type = document.getElementById("TypesOfPayment").ariaValueMax;
     switch (type) {
         case "check":
             return;
         case "creditCard":
             return;
-        case "chash":
+        case "cash":
             return;
     }
 }
